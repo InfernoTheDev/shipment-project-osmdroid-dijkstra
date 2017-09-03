@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="JOSM GPX export" xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <bounds minlat="16.179316" minlon="103.2969903" maxlat="16.189494" maxlon="103.3055662"/>
+  </metadata>
+  <wpt lat="16.183356084153807" lon="103.3027316583294" name="โรงเรียนผดุงนารี" id="node10"/>
+
+  <wpt lat="16.180841898138905" lon="103.30256916765448" name="เสริมไทยพลาซ่า" id="node17"/>
+ 
+  <wpt lat="16.186719841574256" lon="103.2986332824179" name="โรงเรียนสารคามพิทยาคม" id="node1"/>
+  
+  <wpt lat="16.18508998688923" lon="103.30267749477109" name="หอนาฬิกา" id="node8"/>
+
+  <wpt lat="16.1838244" lon="103.3037902" name="สถานีตำรวจภูธรเมืองมหาสารคาม" id="node24"/>
+
+  <wpt lat="16.1846442" lon="103.3039052" name="ตลาดสดเทศบาลเมืองมหาสารคาม" id="node22"/>
+
+
+      <trkpt lat="16.186719841574256" lon="103.2986332824179" name="โรงเรียนสารคามพิทยาคม" id="node1" ref="node2"/>
+      <trkpt lat="16.185904915913927" lon="103.29966239002563" id="node2" ref="node1,node3,node14"/>
+      <trkpt lat="16.18677185799153" lon="103.30043873436128" id="node3" ref="node2,node4,node6"/>
+      <trkpt lat="16.188124280029243" lon="103.29875966405393" id="node4" ref="node3,node5,node28"/>
+      <trkpt lat="16.189494031364823" lon="103.29699032114941" id="node5" ref="node4"/>
+      <trkpt lat="16.18642508161741" lon="103.3008720428277" id="node6" ref="node7,node3"/>
+      <trkpt lat="16.185610154740164" lon="103.30191920495487" id="node7" ref="node6,node8"/>
+      <trkpt lat="16.18508998688923" lon="103.30267749477109" name="หอนาฬิกา" id="node8" ref="node7,node9,node21"/>
+      <trkpt lat="16.184066986117255" lon="103.30184698687714" id="node9" ref="node10,node11,node8"/>
+      <trkpt lat="16.183356084153807" lon="103.3027316583294" name="ผดุงนารี" id="node10" ref="node9"/>
+      <trkpt lat="16.183356084153807" lon="103.30130535129412" id="node11" ref="node9,node12,node15,node26"/>
+      <trkpt lat="16.183824239393164" lon="103.30069149763335" id="node12" ref="node13,node11"/>
+      <trkpt lat="16.184552478669985" lon="103.29978877166165" id="node13" ref="node14,node12"/>
+      <trkpt lat="16.18515934268189" lon="103.29904853636488" id="node14" ref="node2,node13,node28"/>
+      <trkpt lat="16.182211700006377" lon="103.30033040724469" id="node15" ref="node16,node11"/>
+      <trkpt lat="16.181240702194835" lon="103.30190115043544" id="node16" ref="node15,node17"/>
+      <trkpt lat="16.180841898138905" lon="103.30256916765448" name="เสริมไทยพลาซ่า" id="node17" ref="node16,node27"/>
+      <trkpt lat="16.1843086" lon="103.3036354" id="node21" ref="node8,node22,node23"/>
+      <trkpt lat="16.1846442" lon="103.3039052" name="ตลาดสดเทศบาลเมืองมหาสารคาม" id="node22" ref="node21"/>
+      <trkpt lat="16.1840416" lon="103.3039611" id="node23" ref="node21,node24,node25"/>
+      <trkpt lat="16.1838244" lon="103.3037902" name="สถานีตำรวจภูธรเมืองมหาสารคาม" id="node24" ref="node23"/>
+      <trkpt lat="16.183659" lon="103.3045905" id="node25" ref="node23,node26"/>
+      <trkpt lat="16.1815531" lon="103.3038986" id="node26" ref="node27,node25,node11"/>
+      <trkpt lat="16.1805291" lon="103.3035271" id="node27" ref="node17,node26"/>
+      <trkpt lat="16.1864488" lon="103.2974462" id="node28" ref="node14,node4"/>
+</gpx>

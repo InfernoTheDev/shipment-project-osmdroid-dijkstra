@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/calB">
+    </org.osmdroid.views.MapView>
+
+    <!--<ZoomControls
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zoomctrl"
+        android:layout_alignBottom="@+id/mapview"
+        android:layout_alignRight="@+id/mapview"
+        >
+
+    </ZoomControls>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollView"
+        android:fillViewport="false"
+        android:layout_alignTop="@+id/tv">
+
+    </ScrollView>
+    <!-- android:text="Clear" -->
+    <Button
+        android:id="@+id/clrB"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+
+        android:layout_height="48dp"
+        android:layout_above="@+id/gpsB"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_eraser"
+        android:text="ลบเส้นทาง"
+        android:visibility="gone" />
+
+    <!--android:text="Current"-->
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+
+        android:textAllCaps="true"
+        android:id="@+id/gpsB"
+        android:drawableLeft="@drawable/location_icon1"
+        android:layout_above="@+id/TrackB"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="หา ตำแหน่ง" />
+
+    <!--android:text="Track"-->
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:id="@+id/TrackB"
+        android:drawableLeft="@drawable/ic_menu_mylocation_green"
+        android:text="ติดตาม"
+        android:layout_above="@+id/scrollView"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <!--android:text="Route"-->
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/calB"
+        android:visibility="visible"
+        android:background="@drawable/sticon"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/gpsB"
+        android:layout_alignEnd="@+id/gpsB" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mapview"
+        android:typeface="sans"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+    <!--android:text="Current"-->
+
+    <MultiAutoCompleteTextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/actv"
+
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_below="@+id/clrB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/calB"
+        android:layout_toLeftOf="@+id/calB"
+        android:layout_toStartOf="@+id/calB" />
+
+
+
+</RelativeLayout>
